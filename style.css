@@ -11,9 +11,90 @@
     padding: 0 1rem;
     background-color: #fff;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
-    height: 3.5rem;
+    height: 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .menuicon {
+    cursor: pointer;
+  }
+
+  .mobile-hero {
+    padding: 2.5rem 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .subtitle {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ee6436;
+  }
+
+  .title {
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    font-size: 48px;
+    color: #000;
+  }
+
+  .hero__button {
+    background-color: #ee6436;
+    color: #fff;
+    border: none;
+    padding: 1.2rem 1.8rem;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+
+  .cards {
+    width: 100%;
+  }
+
+  .card-container {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .card__item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card__item img {
+    width: 500px;
+    border-radius: 24px;
+    margin-bottom: 2rem;
+  }
+
+  .card__item-text {
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    bottom: 70px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .card__item-text h5 {
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-bottom: 5px;
+  }
+
+  .card__item-text p {
+    font-weight: bold;
+    font-size: 24px;
   }
 }
