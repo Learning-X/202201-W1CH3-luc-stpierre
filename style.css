@@ -1,0 +1,19 @@
+@media (max-width: 767.98px) {
+  .container {
+    /* background-color: red; */
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .navbar {
+    padding: 0 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
